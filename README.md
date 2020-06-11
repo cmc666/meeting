@@ -5,17 +5,21 @@
 
 #### 软件架构
 当前项目是一个基于dubbo的微服务前后端分离的项目架构计划使用的架构为：
-前端：vue,element-ui
-后端：
-基础架构：SpringBoot+Mybatis-Plus+Dubbo
-注册中心：zookeeper
-分布式事务框架：seata
-服务治理：senital
-接口文档：Swagger
-数据库：MySql
-消息中间件：RabbitMQ
-分布式缓存：Redis
-分库分表中间件：ShardingSphere-Jdbc
+
+1. 前端：vue,element-ui
+2. 后端：
+    
+-     1. 基础架构：SpringBoot+Mybatis-Plus+Dubbo
+-     1. 注册中心：zookeeper
+-     1. 分布式事务框架：seata
+-     1. 服务治理：senital
+-     1. 接口文档：Swagger
+-     1. 数据库：MySql
+-     1. 消息中间件：RabbitMQ
+-     1. 分布式缓存：Redis
+-     1. 分库分表中间件：ShardingSphere-Jdbc
+
+
 
 
 1.0.0 版本搭建影院项目业务基础框架的搭建（正在搭建中）
