@@ -10,14 +10,14 @@
 2. 后端：
     
 -     1. 基础架构：SpringBoot+Mybatis-Plus+Dubbo
--     1. 注册中心：zookeeper
--     1. 分布式事务框架：seata
--     1. 服务治理：senital
--     1. 接口文档：Swagger
--     1. 数据库：MySql
--     1. 消息中间件：RabbitMQ
--     1. 分布式缓存：Redis
--     1. 分库分表中间件：ShardingSphere-Jdbc
+-     2. 注册中心：zookeeper
+-     3. 分布式事务框架：seata
+-     4. 服务治理：senital
+-     5. 接口文档：Swagger
+-     6. 数据库：MySql
+-     7. 消息中间件：RabbitMQ
+-     8. 分布式缓存：Redis
+-     9. 分库分表中间件：ShardingSphere-Jdbc
 
 
 
