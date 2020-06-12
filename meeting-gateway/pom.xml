@@ -11,5 +11,16 @@
 
     <artifactId>meeting-gateway</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.yonyou.auto</groupId>
+            <artifactId>meeting-api-demo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
+
+    </dependencies>
+
 
 </project>

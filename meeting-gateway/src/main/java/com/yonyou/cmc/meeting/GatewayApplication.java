@@ -1,18 +1,18 @@
-package com.yonyou.meeting.service.demo;
+package com.yonyou.cmc.meeting;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author cuimc
- * @since 2020-06-12
+ * 网关启动类
  */
 @SpringBootApplication
 @EnableDubboConfig
-public class MeetingServiceDemoApplication {
+public class GatewayApplication {
+
 
     public static void main(String[] args) {
-        SpringApplication.run(MeetingServiceDemoApplication.class,args);
+        SpringApplication.run(GatewayApplication.class,args);
     }
 }
