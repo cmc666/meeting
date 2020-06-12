@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo/hello")
 public class HelloController {
 
-    @Reference(interfaceClass = DemoHelloService.class)
+    @Reference(interfaceClass = DemoHelloService.class,check = false)
     DemoHelloService demoService;
 
     @RequestMapping("/sayHello")
