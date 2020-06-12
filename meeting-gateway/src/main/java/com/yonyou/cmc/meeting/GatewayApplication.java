@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 网关启动类
+ * @author cuimc
+ * @since 2020-06-12
  */
 @SpringBootApplication
 @EnableDubboConfig
